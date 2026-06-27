@@ -26,7 +26,7 @@ from pipeline.rag_chain import ask_question
 
 def ingest_documents(data_dir: str = "./data"):
     """
-    Run the ingestion pipeline: Load → Split → Clean → Embed → Store.
+    Run the ingestion pipeline: Load → Split → Embed → Store.
 
     Args:
         data_dir: Path to the directory containing PDF files
